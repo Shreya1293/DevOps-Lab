@@ -21,3 +21,7 @@ III git config --global user.name shr
 	3.2 git reset --hard => undo the recent changes
 
 	3.3 git log => to check whatever has been commited
+
+( delete your account on control panel > user accounts > windows credentials > github > remove
+  change back to the other person's account: git config --global user.email jkcbkausbcukbc
+  git config --global user.name hgbckaugbc )
