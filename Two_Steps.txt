@@ -3,18 +3,21 @@ II git config --global user.email shreyaramesh2002@gmail.com
 III git config --global user.name shr
 
 1. Changes in github reflected to local repository
-	1.1 git clone enter_the_url => clone the repo from github
-	1.2 make changes in the file in the github and commit
-	1.3 git pull => pull that file
+	1.1 git clone enter_the_url => clone the repo from github / repeat steps of Program 1
+	1.2 make changes in the file in the github and commit changes in github
+	1.3 git pull => pull that changed file and you'll see the CHANGES in LOCAL FILE
 
 2. changes on local file being reflected to github file 
-	2.1 make some changes in the local file
-	2.2 git checkout another_txt.txt => checkout the edited file
-	2.3 git add another_txt.txt => adding to the local repo 
-	2.4 get status => to check if its in your local repo created
-	2.5 git commit -m "new file" => commit to the repo on local system
-	2.6 git push => pushing the changes to github repo
+	2.1 git pull
+	2.2 make some changes in the local file
+	2.3 git checkout another_txt.txt => checkout the edited file
+	2.4 git add another_txt.txt => adding to the local repo 
+	2.5 get status => to check if its in your local repo created
+	2.6 git commit -m "new file" => commit to the repo on local system
+	2.7 git push => pushing the changes to github repo
 
-3. undo-ing the changes done to the file in local
+3. undo-ing the changes done to the file in local (GIT RESET)
 	3.1 git pull => pulling that file from folder
 	3.2 git reset --hard => undo the recent changes
+
+	3.3 git log => to check whatever has been commited
