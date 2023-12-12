@@ -9,7 +9,7 @@ III git config --global user.name shr
 
 2. changes on local file being reflected to github file 
 	2.1 git pull
-	2.2 make some changes in the local file
+	2.2 make some changes in the local file and execute cat another_txt.txt
 	2.3 git checkout another_txt.txt => checkout the edited file
 	2.4 git add another_txt.txt => adding to the local repo 
 	2.5 get status => to check if its in your local repo created
